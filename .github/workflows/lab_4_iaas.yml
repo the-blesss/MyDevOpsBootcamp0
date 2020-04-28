@@ -3,9 +3,9 @@ on:
     branches:
       - master
     paths:
-      - 'lab_2/*'
+      - 'lab_4/*'
 
-name: Lab_2_IaaS
+name: Lab_4_IaaS
 
 env:
   RG_NAME: rg-widget-app
