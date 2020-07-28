@@ -3,7 +3,7 @@ on:
     branches:
       - master
     paths:
-      - 'lab_4/*'
+      - 'lab_5/blue/*'
 
 name: Lab_5_IaaS_Blue
 
