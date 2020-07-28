@@ -35,5 +35,5 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          az deployment group create --resource-group $RG_NAME --template-file lab_5/iaas.deploy150_green.json
+          az deployment group create --resource-group $RG_NAME --template-file lab_5/green/iaas.deploy150_green.json
           az group update -n $RG_NAME --tags 'Environment=Dev' 'Dept=DevOps' 'Created By=GitHubActions' 'Deployment=Green'
