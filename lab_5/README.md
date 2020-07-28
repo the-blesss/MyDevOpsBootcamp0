@@ -1,2 +1,2 @@
-Force this to deploy by updating this file 
+Force each deployment environment by updating the blue/readme or green/readme files 
 
