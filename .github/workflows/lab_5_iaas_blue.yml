@@ -36,4 +36,4 @@ jobs:
       with:
         inlineScript: |
           az deployment group create --resource-group $RG_NAME --template-file lab_5/iaas.deploy150_blue.json
-          az group update -n $RG_NAME --tags 'Environment=Dev' 'Dept=DevOps' 'Created By=GitHubActions'
+          az group update -n $RG_NAME --tags 'Environment=Dev' 'Dept=DevOps' 'Created By=GitHubActions' 'Deployment=Blue'
