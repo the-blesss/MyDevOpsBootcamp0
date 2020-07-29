@@ -201,9 +201,9 @@
 		"imagePublisher": "Canonical",
 		"imageOffer": "UbuntuServer",
 		"ubuntuOsVersion": "18.04-LTS",
-		"vnetAddressSpace": "10.1.0.0/16",
-		"backendSubnetPrefix": "10.1.1.0/24",
-		"webSubnetPrefix": "10.1.2.0/24"
+		"vnetAddressSpace": "10.2.0.0/16",
+		"backendSubnetPrefix": "10.2.1.0/24",
+		"webSubnetPrefix": "10.2.2.0/24"
 	},
 	"resources": [
 		{
